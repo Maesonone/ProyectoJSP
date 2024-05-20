@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 150%;
+    background-image: url(./IMG/Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Fuente1';
+}
+
+p {padding-top: 5%;
+    font-size: 80%;}
+
+.information {
+    background-color: #f69356;
+    background-size: cover;
+    padding: 2vh;
+    border-radius: 2vh;
+    border: 2px solid white;
+    box-shadow: 20px 20px 20px black;
+}
+
+.information-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #dc4c20;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 70%;
+    padding: 0.3em;
+}
+
+#button {
+    margin-top: 1em;
+    background-color: #F45F30;
+    color: #fff;
+    padding: 1vh;
+    border: none;
+    border-radius: 5vh;
+    cursor: pointer;
+    width: 100%;
+    font-size: 80%;
+}
+
+#button:hover {
+    background-color: #eb4816;
+}
